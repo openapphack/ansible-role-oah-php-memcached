@@ -1,8 +1,6 @@
 ---
 - hosts: localhost
   remote_user: root
-
+  vars:
   roles:
-    - oah.memcached
-    - oah.php
-    - ansible-role-php-memcached
+    - ansible-role-oah
